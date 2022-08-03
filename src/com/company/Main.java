@@ -7,7 +7,7 @@ public class Main {
         try (Car car = new Car()) {
             car.drive();
         }catch (Exception e) {
-            e.printStackTrace();
+            e.getMessage();
         }
     }
 }
